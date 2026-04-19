@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مؤشر الذكاء الاصطناعي 2026 | KhaliBitAI</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;800&family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Cairo', 'sans-serif'],
+                        heading: ['Tajawal', 'sans-serif'],
+                    },
+                    colors: {
+                        techDark: '#0B1120',
+                        techCard: '#1E293B',
+                        neonBlue: '#38BDF8',
+                        neonGreen: '#10B981',
+                        neonPurple: '#8B5CF6',
+                        neonRed: '#F43F5E'
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background-color: #0B1120;
+            color: #F8FAFC;
+            overflow-x: hidden;
+        }
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: #0B1120; }
+        ::-webkit-scrollbar-thumb { background: #38BDF8; border-radius: 4px; }
+        
+        /* Animations */
+        .reveal {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.8s ease-out;
+        }
+        .reveal.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        
+        .glow-border {
+            position: relative;
+        }
+        .glow-border::before {
+            content: '';
+            position: absolute;
+            top: -2px; left: -2px; right: -2px; bottom: -2px;
+            background: linear-gradient(45deg, #38BDF8, #8B5CF6, #10B981);
+            z-index: -1;
+            border-radius: inherit;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        .glow-border:hover::before {
+            opacity: 1;
+        }
+        
+        /* Logo Watermark */
+        .khalibit-logo {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            opacity: 0.6;
+            transition: all 0.3s ease;
+            z-index: 1000;
+            box-shadow: 0 0 15px rgba(56, 189, 248, 0.5);
+            border: 2px solid #38BDF8;
+            object-fit: cover;
+        }
+        .khalibit-logo:hover {
+            opacity: 1;
+            transform: scale(1.1);
+            box-shadow: 0 0 25px rgba(56, 189, 248, 0.8);
+        }
+
+        /* Floating Animation for Header Icons */
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+            100% { transform: translateY(0px); }
+        }
+        .float-icon { animation: float 3s ease-in-out infinite; }
+    </style>
+</head>
+<body class="antialiased selection:bg-neonBlue selection:text-white">
+
+    <!-- Header -->
+    <header class="relative pt-20 pb-16 text-center reveal overflow-hidden">
+        <div class="absolute inset-0 z-0 opacity-20 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-neonBlue via-techDark to-techDark"></div>
+        <div class="relative z-10 container mx-auto px-4">
+            <i class="fas fa-brain text-5xl text-neonBlue mb-4 float-icon"></i>
+            <h1 class="text-4xl md:text-6xl font-heading font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-l from-neonBlue to-neonPurple">
+                مؤشر الذكاء الاصطناعي 2026
+            </h1>
+            <p class="text-lg md:text-2xl text-gray-400 max-w-3xl mx-auto">
+                أهم 6 استنتاجات من تقرير جامعة ستانفورد السنوي حول قدرات، تكاليف، ومستقبل الذكاء الاصطناعي.
+            </p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-4 py-8 max-w-6xl">
+        
+        <!-- Grid Layout for Stats -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+            
+            <!-- Card 1: Environment -->
+            <div class="techCard bg-techCard p-6 rounded-2xl border border-gray-700 glow-border reveal flex flex-col justify-between">
+                <div>
+                    <div class="flex items-center justify-between mb-4">
+                        <h3 class="text-xl font-bold text-neonRed">البيئة والطاقة</h3>
+                        <i class="fas fa-smog text-3xl text-neonRed opacity-80"></i>
+                    </div>
+                    <p class="text-gray-300 text-sm leading-relaxed">
+                        تدريب نموذج Grok 4 أنتج <span class="font-bold text-white">72,816 طن</span> من ثاني أكسيد الكربون (يعادل سيارات 17 ألف شخص لعام). استهلاك طاقة الذكاء الاصطناعي ككل يعادل دولة مثل <span class="text-neonRed font-bold">سويسرا</span>.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Card 2: Investment -->
+            <div class="techCard bg-techCard p-6 rounded-2xl border border-gray-700 glow-border reveal flex flex-col justify-between">
+                <div>
+                    <div class="flex items-center justify-between mb-4">
+                        <h3 class="text-xl font-bold text-neonGreen">الاستثمارات (2025)</h3>
+                        <i class="fas fa-chart-line text-3xl text-neonGreen opacity-80"></i>
+                    </div>
+                    <div class="text-4xl font-bold text-white mb-2 flex items-center">
+                        $<span class="counter" data-target="581">0</span>B
+                    </div>
+                    <p class="text-gray-300 text-sm leading-relaxed">
+                        حجم استثمارات الشركات العالمية (بزيادة 130%). أمريكا تتصدر بـ 285.9 مليار، رغم الاستثمارات الحكومية الصينية الضخمة غير المعلنة بالكامل.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Card 3: Jobs -->
+            <div class="techCard bg-techCard p-6 rounded-2xl border border-gray-700 glow-border reveal flex flex-col justify-between">
+                <div>
+                    <div class="flex items-center justify-between mb-4">
+                        <h3 class="text-xl font-bold text-neonPurple">سوق العمل</h3>
+                        <i class="fas fa-user-minus text-3xl text-neonPurple opacity-80"></i>
+                    </div>
+                    <div class="text-4xl font-bold text-white mb-2 flex items-center">
+                        <span class="counter" data-target="20">0</span>%<i class="fas fa-arrow-down text-neonRed text-xl mr-2"></i>
+                    </div>
+                    <p class="text-gray-300 text-sm leading-relaxed">
+                        انخفاض في توظيف المبرمجين المبتدئين (22-25 عاماً) منذ 2024. التكنولوجيا بدأت تستهدف الوظائف المبتدئة بشكل حقيقي.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Horizontal Sections -->
+        <div class="space-y-6">
+            <!-- Global Race -->
+            <div class="bg-gradient-to-r from-techCard to-gray-800 p-6 md:p-8 rounded-2xl border border-gray-700 reveal flex flex-col md:flex-row items-center gap-6">
+                <div class="w-full md:w-1/3 text-center md:text-right">
+                    <i class="fas fa-globe-asia text-5xl text-neonBlue mb-3"></i>
+                    <h3 class="text-2xl font-bold text-white">السباق العالمي</h3>
+                </div>
+                <div class="w-full md:w-2/3">
+                    <ul class="space-y-3 text-gray-300">
+                        <li class="flex items-start"><i class="fas fa-check-circle text-neonBlue mt-1 ml-2"></i> <span>الصين تكاد تُلغي الفجوة التقنية مع أمريكا (نموذج Anthropic الأمريكي يتفوق بـ 2.7% فقط حالياً).</span></li>
+                        <li class="flex items-start"><i class="fas fa-check-circle text-neonBlue mt-1 ml-2"></i> <span>تراجع حاد بنسبة <strong class="text-neonRed">89%</strong> في تدفق خبراء الذكاء الاصطناعي إلى أمريكا منذ 2017.</span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Adoption & Healthcare -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <!-- Adoption -->
+                <div class="bg-techCard p-6 rounded-2xl border border-gray-700 reveal">
+                    <h3 class="text-xl font-bold text-white mb-4 flex items-center">
+                        <i class="fas fa-rocket text-neonBlue ml-2"></i> سرعة التبني العام
+                    </h3>
+                    <div class="mb-4">
+                        <div class="flex justify-between mb-1">
+                            <span class="text-gray-300">التبني العالمي (خلال 3 سنوات)</span>
+                            <span class="text-neonBlue font-bold">53%</span>
+                        </div>
+                        <div class="w-full bg-gray-700 rounded-full h-2.5">
+                            <div class="bg-neonBlue h-2.5 rounded-full" style="width: 53%"></div>
+                        </div>
+                    </div>
+                    <p class="text-sm text-gray-400">سنغافورة تتصدر (61%) تليها الإمارات (54%)، بينما أمريكا في المركز 24 (28.3%).</p>
+                </div>
+
+                <!-- Healthcare -->
+                <div class="bg-techCard p-6 rounded-2xl border border-gray-700 reveal">
+                    <h3 class="text-xl font-bold text-white mb-4 flex items-center">
+                        <i class="fas fa-heartbeat text-neonGreen ml-2"></i> الرعاية الصحية
+                    </h3>
+                    <div class="flex items-center gap-4">
+                        <div class="w-20 h-20 rounded-full border-4 border-neonGreen flex items-center justify-center shrink-0">
+                            <span class="text-2xl font-bold text-neonGreen">83%</span>
+                        </div>
+                        <p class="text-sm text-gray-300 leading-relaxed">
+                            توفير في وقت الأطباء المخصص لكتابة الملاحظات السريرية، مما قلل من الإرهاق الوظيفي بشكل ملحوظ.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Transparency Alert -->
+            <div class="bg-red-900/20 border border-red-500/50 p-6 rounded-2xl reveal mt-6">
+                <div class="flex items-center gap-3 mb-2">
+                    <i class="fas fa-exclamation-triangle text-neonRed text-xl"></i>
+                    <h3 class="text-lg font-bold text-white">تحذير: تراجع الشفافية</h3>
+                </div>
+                <p class="text-gray-300 text-sm">مؤشر شفافية النماذج الأساسية انخفض من 58 إلى 40 نقطة. الشركات الكبرى أصبحت تخفي تفاصيل التدريب والبيانات بشكل متزايد.</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Logo Watermark (Image from local/web) -->
+    <!-- يرجى تعديل مسار src للصورة ليعمل محلياً أو على الويب -->
+    <img src="KhaliBitAI_Logo.jpg" alt="KhaliBitAI Logo" class="khalibit-logo" onerror="this.src='https://www.mediafire.com/view/wdwocv4gfzgacrx/KhaliBitAI_Logo.jpg'">
+
+    <!-- Footer -->
+    <footer class="border-t border-gray-800 mt-16 py-8 text-center bg-techCard reveal">
+        <div class="container mx-auto px-4">
+            <h2 class="text-xl font-bold text-white mb-4">KhaliBitAI | استكشاف الذكاء الاصطناعي والابتكار الرقمي</h2>
+            <div class="flex justify-center gap-6 mb-6">
+                <a href="https://www.facebook.com/KhaliBitAI.Official" target="_blank" class="w-12 h-12 rounded-full bg-gray-800 flex items-center justify-center text-blue-500 hover:bg-blue-500 hover:text-white transition-all duration-300 border border-gray-700 hover:border-blue-500">
+                    <i class="fab fa-facebook-f text-xl"></i>
+                </a>
+                <a href="https://youtube.com/@khalibitai.official.93" target="_blank" class="w-12 h-12 rounded-full bg-gray-800 flex items-center justify-center text-red-500 hover:bg-red-500 hover:text-white transition-all duration-300 border border-gray-700 hover:border-red-500">
+                    <i class="fab fa-youtube text-xl"></i>
+                </a>
+            </div>
+            <p class="text-gray-500 text-sm">المصدر: Stanford HAI AI Index Report 2026 | تحويل وتنفيذ بواسطة KhaliBitAI</p>
+        </div>
+    </footer>
+
+    <!-- Interactive JS -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // 1. Scroll Reveal Animation
+            const reveals = document.querySelectorAll('.reveal');
+            const revealOptions = {
+                threshold: 0.15,
+                rootMargin: "0px 0px -50px 0px"
+            };
+
+            const revealOnScroll = new IntersectionObserver(function(entries, observer) {
+                entries.forEach(entry => {
+                    if (!entry.isIntersecting) return;
+                    entry.target.classList.add('active');
+                    observer.unobserve(entry.target);
+                });
+            }, revealOptions);
+
+            reveals.forEach(reveal => {
+                revealOnScroll.observe(reveal);
+            });
+
+            // 2. Number Counter Animation
+            const counters = document.querySelectorAll('.counter');
+            const counterOptions = {
+                threshold: 1,
+                rootMargin: "0px"
+            };
+
+            const startCounters = new IntersectionObserver(function(entries, observer) {
+                entries.forEach(entry => {
+                    if (!entry.isIntersecting) return;
+                    
+                    const target = entry.target;
+                    const finalValue = parseFloat(target.getAttribute('data-target'));
+                    const duration = 2000; // 2 seconds
+                    const frameRate = 30; // ms per frame
+                    const increment = finalValue / (duration / frameRate);
+                    let currentValue = 0;
+
+                    const timer = setInterval(() => {
+                        currentValue += increment;
+                        if (currentValue >= finalValue) {
+                            target.innerText = finalValue % 1 !== 0 ? finalValue.toFixed(1) : finalValue;
+                            clearInterval(timer);
+                        } else {
+                            target.innerText = currentValue % 1 !== 0 ? currentValue.toFixed(1) : Math.floor(currentValue);
+                        }
+                    }, frameRate);
+
+                    observer.unobserve(target);
+                });
+            }, counterOptions);
+
+            counters.forEach(counter => {
+                startCounters.observe(counter);
+            });
+        });
+    </script>
+</body>
+</html>
